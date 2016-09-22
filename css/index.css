@@ -1,0 +1,151 @@
+
+.logo-section {
+    background: url("../img/backgorund.jpg") no-repeat center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+
+.teaser-section {
+    background-color: #ffffff;
+    padding-bottom: 8em;
+}
+
+.teaser-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/white_bottom_right_triangle.svg");
+}
+
+
+
+.faq-section {
+    background-color: #D65B12;
+    color: #ffffff;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.faq-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/orange_bottom_left_triangle.svg");
+}
+
+.faq-section a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .faq-section h4 {
+        cursor: pointer;
+    }
+}
+
+.faq-section .arrow-animate {
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.faq-section .arrow-animate.down{
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+
+.schedule-section {
+    background-color: #364759;
+    color: #ffffff;
+    text-align: center;
+}
+
+.schedule-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/gray_bottom_right_triangle.svg");
+}
+
+.schedule-section:after {
+    bottom: -4em;
+    height: 4em;
+    background-image: url("../img/gray_top_left_triangle.svg");
+}
+
+.schedule-section .table {
+    text-align: left;
+}
+
+
+
+.sponsors-section {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    color: #D65B12;
+    text-align: center;
+}
+
+.sponsors-section a {
+    color: #D65B12;
+    text-decoration: underline;
+}
+
+.sponsors-section img {
+    max-height: 200px;
+    max-width: 80%;
+    margin: 25px;
+}
+
+
+footer:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/gray_bottom_right_triangle.svg");
+}
+
+footer {
+    background-color: #364759;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer h3 {
+    padding-bottom: 25px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer .fa:hover {
+    color: #D65B12;
+}
+
+footer hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer .info-row {
+    margin-bottom: 50px;
+}
+
+footer .info-row a {
+    color: #fff;
+}
+
+
+.triangle:before, .triangle:after {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+    width: 100%;
+    content: '';
+    left: 0;
+}

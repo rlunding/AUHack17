@@ -1,0 +1,12 @@
+/* TEAM */
+    Master of Hack: Rasmus Lunding Henriksen
+    From: Aarhus, Denmark
+
+/* THANKS */
+
+
+/* SITE */
+    Site Name: AUHack
+    Site URL: https://auhack.org
+    Language: English
+    Facebook: https://www.facebook.com/AUHack/
