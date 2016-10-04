@@ -114,6 +114,8 @@ jQuery(document).ready(function($) {
 
     });
 
+    $(".tile-text").slideUp(1);
+
     $(".tile-header").click(function(){
         var element = $(this).next();
         if (element.is(":hidden")){
@@ -121,7 +123,6 @@ jQuery(document).ready(function($) {
         } else {
             element.slideUp(500);
         }
-
     });
 
 });

@@ -1,10 +1,11 @@
 .tile {
     background-color: #ffffff;
+    margin: 10px 0;
 }
 .tile:before {
     height: 4em;
     background-image: url("../img/faq_box_icon_top.svg");
-    background-color: #ffffff;
+    #background-color: #ffffff;
 }
 
 .tile:after {
