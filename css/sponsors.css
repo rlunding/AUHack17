@@ -20,7 +20,7 @@
 
 .sponsor-faq-section:before {
     top: -4em;
-    height: 5em;
+    height: 10em;
    color: #f0f0d0;
 }
 
@@ -35,6 +35,8 @@
 
 .sponsor-faq-section a {
     text-decoration: underline;
+    data-toggle="collapse"; 
+    data-parent="#accordion"; href="#collapseOne"; aria-expanded="true";
 }
 
 
