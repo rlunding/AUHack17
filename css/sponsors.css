@@ -1,0 +1,108 @@
+
+/*.sponsors-section {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    color: #D65B12;
+    text-align: center;
+}
+
+.sponsors-section a {
+    color: #D65B12;
+    text-decoration: underline;
+}
+
+.sponsors-section img {
+    max-height: 200px;
+    max-width: 80%;
+    margin: 25px;
+}*/
+
+.sponsor-faq-section:before {
+    top: -4em;
+    height: 5em;
+   color: #f0f0d0;
+}
+
+.sponsor-faq-section {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    padding-bottom: 250px;
+}
+
+
+
+.sponsor-faq-section a {
+    text-decoration: underline;
+}
+
+
+.sponsor-event-list {
+    background-color: #D65B12;
+    color: #ffffff;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.sponsor-event-list:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/orange_bottom_left_triangle.svg");
+}
+
+.sponsor-event-list a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+
+
+footer:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/gray_bottom_right_triangle.svg");
+}
+
+footer {
+    background-color: #364759;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer h3 {
+    padding-bottom: 25px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer .fa:hover {
+    color: #D65B12;
+}
+
+footer hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer .info-row {
+    margin-bottom: 50px;
+}
+
+footer .info-row a {
+    color: #fff;
+}
+
+
+.triangle:before, .triangle:after {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+    width: 100%;
+    content: '';
+    left: 0;
+}
