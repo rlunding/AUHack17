@@ -113,16 +113,4 @@ jQuery(document).ready(function($) {
         }
 
     });
-
-    $(".tile-text").slideUp(1);
-
-    $(".tile-header").click(function(){
-        var element = $(this).next();
-        if (element.is(":hidden")){
-            element.slideDown(500);
-        } else {
-            element.slideUp(500);
-        }
-    });
-
 });
