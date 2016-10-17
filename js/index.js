@@ -42,22 +42,21 @@ jQuery(document).ready(function($) {
 
     sections.waypoint({
 
-        handler: function(event, direction) {
+        handler: function(direction) {
 
             var active_section;
 
-            //active_section = $(this);
-            active_section = this.element
-            if (direction === "up") active_section = active_section.prev();
+            active_section = this.element.id;
+            if (direction === "up") {
+                active_section = $("#"+active_section).prev().attr('id');
+            }
 
-            //var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
-            var active_link = $('#nav-wrap a[href="#' + active_section.id + '"]');
+            var active_link = $('#nav-wrap a[href="#' + active_section + '"]');
 
             navigation_links.parent().removeClass("active");
             active_link.parent().addClass("active");
         },
         offset: '15%'
-
     });
 
     /*----------------------------------------------------*/
@@ -85,11 +84,12 @@ jQuery(document).ready(function($) {
 
     function checkWidth() {
         var windowSize = $(window).width();
+        var text = $(".faq-section p");
         if (windowSize < 768) {
             smallWindow = true;
-            $(".faq-section p").slideUp(0);
+            text.slideUp(0);
         } else {
-            $(".faq-section p").slideDown(0);
+            text.slideDown(0);
             smallWindow = false;
         }
     }
