@@ -1,8 +1,20 @@
+hr {
+    margin-bottom: 50px;
+}
 
 .logo-section {
-    background: url("../img/background2.jpeg") no-repeat center;
+    /*background: url("../img/testBaggrund1.jpg") no-repeat center;*/
+    background-color: #D65B12;
     height: 100vh;
-    color: #D65B12;
+    color: #ffffff;
+}
+
+.logo-section h1 {
+    font-size: 6em;
+}
+
+.logo-section p {
+    font-size: 2em;
 }
 
 
@@ -17,6 +29,9 @@
     background-image: url("../img/white_bottom_right_triangle.svg");
 }
 
+.teaser-section hr {
+    border-top: 1px solid #000000;
+}
 
 
 .faq-section {
@@ -84,6 +99,9 @@
     text-align: left;
 }
 
+.schedule-section hr {
+    margin-bottom: 15px;
+}
 
 
 .sponsors-section {
@@ -103,6 +121,11 @@
     max-height: 200px;
     max-width: 80%;
     margin: 25px;
+}
+
+.sponsors-section hr {
+    border-top: 1px solid #D65B12;
+    margin-bottom: 15px;
 }
 
 

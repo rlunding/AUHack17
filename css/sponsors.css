@@ -34,11 +34,12 @@
 
 
 .sponsor-faq-section a {
-    text-decoration: underline;
-    data-toggle="collapse"; 
-    data-parent="#accordion"; href="#collapseOne"; aria-expanded="true";
+    text-decoration: none;
 }
 
+.sponsor-faq-section p {
+    margin-bottom: 5px;
+}
 
 .sponsor-event-list {
     background-color: #D65B12;
@@ -57,8 +58,6 @@
     color: #ffffff;
     text-decoration: underline;
 }
-
-
 
 
 footer:before {
