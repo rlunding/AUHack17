@@ -41,7 +41,6 @@ jQuery(document).ready(function($) {
     var navigation_links = $("#nav-wrap a");
 
     sections.waypoint({
-
         handler: function(direction) {
 
             var active_section;
@@ -75,26 +74,48 @@ jQuery(document).ready(function($) {
         }
     });
 
+    /*----------------------------------------------------*/
+    /*	Add padding-left to MLH-badge on mobile-devices
+     ------------------------------------------------------*/
+
+    function MLHPaddingOnMobile() {
+        var windowSize = $(window).width();
+        if (windowSize < 768) {
+            var mlh_badge = $("#mlh-trust-badge");
+            var padding = (mlh_badge.offset().left + mlh_badge.outerWidth());
+            $(".navbar-brand span").css("padding-left", padding);
+            $(".navbar li a").css("padding-left", padding);
+        } else {
+            $(".navbar-brand span").css("padding-left", "");
+            $(".navbar li a").css("padding-left", "");
+        }
+    }
 
     /*----------------------------------------------------*/
     /*	Check if FAQ should be collapsed
      ------------------------------------------------------*/
 
-    //TODO: bug when the window is resized - the angles should be brought back to inital state
-
     function checkWidth() {
         var windowSize = $(window).width();
-        var text = $(".faq-section p");
         if (windowSize < 768) {
             smallWindow = true;
-            text.slideUp(0);
+            $(".faq-section h4").each(function () {
+                var element = $(this).next();
+                var angle = $(this).find('i');
+                if (element.is(":visible")){
+                    element.slideUp(500);
+                    if (!angle.hasClass('down')) {
+                        angle.toggleClass('down');
+                    }
+                }
+                element.removeClass('faq-item-selected');
+            });
         } else {
-            text.slideDown(0);
+            $(".faq-section p").slideDown(0);
             smallWindow = false;
         }
     }
-    checkWidth();
-    $(window).resize(checkWidth);
+
 
     $(".faq-section h4").click(function(){
         if (smallWindow) {
@@ -113,4 +134,15 @@ jQuery(document).ready(function($) {
         }
 
     });
+
+    /*----------------------------------------------------*/
+    /*	Do stuff when the window is resize
+     ------------------------------------------------------*/
+    function window_resize() {
+        checkWidth();
+        MLHPaddingOnMobile();
+    }
+
+    window_resize();
+    $(window).resize(window_resize);
 });
