@@ -17,6 +17,11 @@ hr {
     font-size: 2em;
 }
 
+.logo-section .logo-section-top-margin {
+    height: 50vh;
+}
+
+
 
 .teaser-section {
     background-color: #ffffff;
@@ -59,6 +64,10 @@ hr {
 @media (max-width: 767px) {
     .faq-section h4 {
         cursor: pointer;
+    }
+
+    .logo-section .logo-section-top-margin {
+        height: 30vh;
     }
 }
 
