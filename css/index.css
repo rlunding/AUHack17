@@ -61,6 +61,7 @@ hr {
     text-decoration: underline;
 }
 
+
 @media (max-width: 767px) {
     .faq-section h4 {
         cursor: pointer;
@@ -110,6 +111,17 @@ hr {
 
 .schedule-section hr {
     margin-bottom: 15px;
+}
+
+.event-list-section:before{
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/gray_bottom_right_triangle.svg");
+}
+
+.event-list-section:after{
+    top: -4em;
+    height: 4em;
 }
 
 
