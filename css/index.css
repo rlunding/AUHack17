@@ -146,7 +146,7 @@ hr {
 .sponsors-section img {
     max-height: 200px;
     max-width: 80%;
-    margin: 25px;
+    margin: 25px 1px;
 }
 
 .sponsors-section hr {
