@@ -3,22 +3,27 @@ hr {
 }
 
 .logo-section {
-    /*background: url("../img/connections.svg") center #D65B12;*/
-    background-color: #D65B12;
+    background: url("../img/WebBanner.jpg") no-repeat center #D65B12;
+    background-size: cover;
+    /*background-color: #D65B12;*/
     height: 100vh;
     color: #ffffff;
 }
 
 .logo-section h1 {
-    font-size: 6em;
+    font-size: 10vh;/*6em;*/
 }
 
 .logo-section p {
-    font-size: 2em;
+    font-size: 5vh;/*2em;*/
 }
 
 .logo-section .logo-section-top-margin {
     height: 50vh;
+}
+
+.logo-section .btn-lg {
+    font-size: 3vh;
 }
 
 
