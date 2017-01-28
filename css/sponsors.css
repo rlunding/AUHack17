@@ -51,7 +51,7 @@
 .sponsor-event-list:before {
     top: -4em;
     height: 4em;
-    background-image: url("../img/orange_bottom_left_triangle.svg");
+    background-image: url("../img/figures/orange_bottom_left_triangle.svg");
 }
 
 .sponsor-event-list a {
@@ -63,7 +63,7 @@
 footer:before {
     top: -4em;
     height: 4em;
-    background-image: url("../img/gray_bottom_right_triangle.svg");
+    background-image: url("../img/figures/gray_bottom_right_triangle.svg");
 }
 
 footer {
