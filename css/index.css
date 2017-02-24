@@ -154,6 +154,11 @@ hr {
     margin-bottom: 15px;
 }
 
+.sponsors-section hr.sponsor-category  {
+    border-top: 1px solid rgba(214, 91, 18, 0.1);
+    margin: 0;
+}
+
 
 footer:before {
     top: -4em;
