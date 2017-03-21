@@ -42,26 +42,7 @@ hr {
     border-top: 1px solid #000000;
 }
 
-.nav-pills a {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-}
 
-.nav-pills>li.active>a {
-    background-color: #364759;
-}
-
-.nav-pills>li.active>a:hover {
-    background-color: #364759;
-}
-
-.nav-justified > li {
-    display: table-cell;
-    width: 1%
-}
-
-#map {
-    height: 400px;
-    width: 100%;
+li {
+    font: 19px/28px AU_Passata, 'opensans-light', sans-serif; /* 19px/36px*/
 }
