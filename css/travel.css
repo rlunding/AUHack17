@@ -27,18 +27,18 @@ hr {
     font-size: 3vh;
 }
 
-.hardware-section {
+.travel-section {
     background-color: #ffffff;
     padding-bottom: 8em;
 }
 
-.hardware-section:before {
+.travel-section:before {
     top: -4em;
     height: 4em;
     background-image: url("../img/figures/white_bottom_right_triangle.svg");
 }
 
-.hardware-section hr {
+.travel-section hr {
     border-top: 1px solid #000000;
 }
 
