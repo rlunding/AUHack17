@@ -1,0 +1,99 @@
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo-section {
+    background: url("../img/WebBanner.jpg") no-repeat center #D65B12;
+    background-size: cover;
+    /*background-color: #D65B12;*/
+    height: 50vh;
+    color: #ffffff;
+}
+
+.logo-section h1 {
+    font-size: 10vh;/*6em;*/
+}
+
+.logo-section h2 {
+    font-size: 5vh;/*2em;*/
+}
+
+.logo-section .logo-section-top-margin {
+    height: 15vh;
+}
+
+.logo-section .btn-lg {
+    font-size: 3vh;
+}
+
+.general-section {
+    background-color: #ffffff;
+    padding-bottom: 8em;
+}
+
+.general-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/figures/white_bottom_right_triangle.svg");
+}
+
+.general-section hr {
+    margin: 20px 0;
+    border-top: 1px solid #000000;
+}
+
+.criteria-section {
+    color: #ffffff;
+    background-color: #D65B12;
+    padding-bottom: 8em;
+}
+
+.criteria-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/figures/orange_bottom_left_triangle.svg");
+}
+
+.criteria-section hr {
+    border-top: 1px solid #ffffff;
+}
+
+.judges-section {
+    background-color: #ffffff;
+    padding-bottom: 8em;
+}
+
+.judges-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/figures/white_bottom_right_triangle.svg");
+}
+
+.judges-section hr {
+    border-top: 1px solid #000000;
+}
+
+.nav-pills a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-pills>li.active>a {
+    background-color: #364759;
+}
+
+.nav-pills>li.active>a:hover {
+    background-color: #364759;
+}
+
+.nav-justified > li {
+    display: table-cell;
+    width: 1%
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
