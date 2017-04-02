@@ -111,8 +111,17 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <p>On this page you will find general information about the competition. </p>
-                <!--<p>General information, devpost</p>-->
+                <p>
+                    You must submit your project to <a href="https://auhack17.devpost.com" target="_blank">devpost</a> before 11:30.
+                    Remember to add any sponsor prizes that you are competing for on devpost.
+                    If you have any problems, please contact us at the information desk.
+                </p>
+                <p>
+                    For the One Minute Madness, please send your slide to
+                    <a href="mailto:slides@auhack.org?subject=One minute madness slide&body=Table: [Your table] %0D%0AGroup name: [Your groupname]">slides@auhack.org</a>
+                    before 11.00 Sunday. The slide should be a one page .pdf-file in 16:9.
+                    The email must clearly state your table number and team name (click the email link).
+                </p>
             </div>
         </div>
         <br>
@@ -125,8 +134,9 @@
                 <h3>1 Minute Madness</h3>
                 <hr>
                 <p>
-                    One minute madness will be used to introduce all teams to each others projects.
+                    One Minute Madness will be used to introduce all teams to each others projects.
                     Each team will have one <b>one slide</b> and <b>one minute</b> to hype their project.
+                    We will do the One Minute Madness in the Peter Bøgh Auditorium.
                 </p>
             </div>
             <!-- Expo -->
@@ -135,7 +145,9 @@
                 <hr>
                 <p>
                     After 1 Minute Madness all teams will expo their projects for two hours.
-                    Here judges and fellow students will have time to test each others projects.<br>
+                    Here judges and fellow students will have time to test each others projects.
+                    The expo will be at your tables where you have worked throughout the weekend.
+                    <br>
                     Each team will be visited by a pair of judges, though the judges might come visit an
                     additional time if they want to.
                 </p>
@@ -248,32 +260,5 @@
 <script src="js/bootstrap/ie10-viewport-bug-workaround.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/index.js"></script>
-<script>
-    $(document).ready(function(){
-        activeTab('location');
-    });
-
-    function activeTab(tab){
-        //$('.nav-tabs a[href="#' + tab + '"]').click();//.tab('show');
-        $('a[href="#' + tab + '"]').click();
-    };
-
-    function initMap() {
-        var auhack = {lat: 56.171697, lng: 10.189996};
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 16,
-            center: auhack
-        });
-        var marker = new google.maps.Marker({
-            position: auhack,
-            map: map,
-            label: ''
-        });
-
-    }
-</script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwvHkLHxat533UwhgjnOOs1DN7q0dPYyo&callback=initMap">
-</script>
 </body>
 </html>
